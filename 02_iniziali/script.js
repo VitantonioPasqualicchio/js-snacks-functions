@@ -17,3 +17,8 @@ const message = getInitials(names);
 console.log (message);
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
+
+
+/* VERSIONE ONELINER
+const getInitials = names => names.map(singleName => singleName.at(0));
+*/
